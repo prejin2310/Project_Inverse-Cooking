@@ -5,10 +5,9 @@ In this project introduces an inverse cooking system that takes a food image and
 This model predicts ingredients as sets by means of `DenseNet201` and `Recipe Retrieval Algorithm`. Generates cooking instructions by attending to both image and its inferred ingredients simultaneously.
 
 
-### Functionalities
-- User can `Upload Photos`.
-- User can `Take live photos`.
-- Model predicts `Cooking Recipe of the upload image`.
+### Dataset
+The recipes from the website are scraped and saved as a JSON file, google_images_download library is used to download images. For each recipe 10 images are downloaded for training and 2 for testing. </br>
+A total of 9432 images are downloaded (7860 train and 1572 test)
 
 
 ### Workflow Diagram
@@ -18,25 +17,20 @@ There is no real time web portal available to predict the food based on uploaded
 
 ### Working Screenshots
 <div align="center">
-  <img src = "https://github.com/prejin2310/Ev-Charging-App/blob/8bb9abe5c93f17f0887feb8d11d93dcff1a7b3af/Screenshots/reg.png" alt = "" width="200px"/>
-  <img src = "https://github.com/prejin2310/Ev-Charging-App/blob/8bb9abe5c93f17f0887feb8d11d93dcff1a7b3af/Screenshots/login.png" alt = "" width="200px"/>
-  <img src = "https://github.com/prejin2310/Ev-Charging-App/blob/8bb9abe5c93f17f0887feb8d11d93dcff1a7b3af/Screenshots/home.png" alt = "" width="200px"/>
-  <img src = "https://github.com/prejin2310/Ev-Charging-App/blob/8bb9abe5c93f17f0887feb8d11d93dcff1a7b3af/Screenshots/sta.png" alt = "" width="200px"/>
+  <img src = "https://github.com/prejin2310/Inverse-Cooking/blob/f1c2669526468a88e57682c5de087537e73743f7/Screenshots/home.jpg" alt = "" width="700px"/>
+  <img src = "https://github.com/prejin2310/Inverse-Cooking/blob/f1c2669526468a88e57682c5de087537e73743f7/Screenshots/upload.jpg" alt = "" width="700px"/>
 </div>
 <br/>
 <div align="center">
-  <img src = "https://github.com/prejin2310/Ev-Charging-App/blob/8bb9abe5c93f17f0887feb8d11d93dcff1a7b3af/Screenshots/ev.png" alt = "" width="200px"/>
-  <img src = "https://github.com/prejin2310/Ev-Charging-App/blob/8bb9abe5c93f17f0887feb8d11d93dcff1a7b3af/Screenshots/slot.png" alt = "" width="200px"/>
-  <img src = "https://github.com/prejin2310/Ev-Charging-App/blob/8bb9abe5c93f17f0887feb8d11d93dcff1a7b3af/Screenshots/paym.png" alt = "" width="200px"/>
-  <img src = "https://github.com/prejin2310/Ev-Charging-App/blob/8bb9abe5c93f17f0887feb8d11d93dcff1a7b3af/Screenshots/bank.png" alt = "" width="200px"/>
+  <img src = "https://github.com/prejin2310/Inverse-Cooking/blob/f1c2669526468a88e57682c5de087537e73743f7/Screenshots/mobile.jpg" alt = "" width="200px"/>
+  <img src = "https://github.com/prejin2310/Inverse-Cooking/blob/f1c2669526468a88e57682c5de087537e73743f7/Screenshots/cam.jpg" alt = "" width="200px"/>
+  <img src = "https://github.com/prejin2310/Inverse-Cooking/blob/f1c2669526468a88e57682c5de087537e73743f7/Screenshots/outmobile.jpg" alt = "" width="200px"/>
 </div>
 <br/>
-<div align="center">
-  <img src = "https://github.com/prejin2310/Ev-Charging-App/blob/8bb9abe5c93f17f0887feb8d11d93dcff1a7b3af/Screenshots/recipt.png" alt = "" width="200px"/>
-  <img src = "https://github.com/prejin2310/Ev-Charging-App/blob/3df76d58c2078640b010576e0000ca7b3d78a6d7/Screenshots/admin.png" alt = "" width="200px"/>
-  <img src = "https://github.com/prejin2310/Ev-Charging-App/blob/7c8908155d6eb29b3c822733761d22808ce9cd09/Screenshots/uplo.png" alt = "" width="200px"/>
-</div>
+
   
-### Contributors
-- [Prejin PR](https://github.com/prejin2310)
-- [Renjith RP](https://github.com/Renjith20)
+### Reference
+- [pic2recipe](http://pic2recipe.csail.mit.edu/)
+- [Meta Researcher](https://ai.facebook.com/blog/inverse-cooking/)
+- [Meta AI](https://research.facebook.com/file/1033483384091768/Inverse-Cooking-Recipe-Generation-from-Food-Images.pdf)
+- [IEEE Paper](https://ieeexplore.ieee.org/document/8953192)
