@@ -1,4 +1,4 @@
-<h1 align="center">INVERSE COOKING-Recipe Generation from Food Images”</h1>
+<h1 align="center">INVERSE COOKING-Recipe Generation from Food Images</h1>
 
 ### Description
 In this project introduces an inverse cooking system that takes a food image and recreate a cooking recipes consisting of a title, ingredients, sequence of cooking instructions, Calorie, Cooking time.
